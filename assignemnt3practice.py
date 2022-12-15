@@ -1,0 +1,10 @@
+f1=open("C:/Users/91945/Desktop/Apple.txt","r")
+print(f1.readline())
+f2=open("C:/Users/91945/Desktop/Water.txt","a")
+for i in f1:
+    f2.write(i)
+f2.close()
+f1.close()
+f3=open("C:/Users/91945/Desktop/Apple.txt","r")
+print("The new file is for file2 file")
+print (f3.read())
